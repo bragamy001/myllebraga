@@ -1,0 +1,222 @@
+body {
+    color: #1c1c1c
+}
+
+h1{
+    color: #0000;
+}
+
+.nome{
+    font-family: sans-serif;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+    text-shadow: 1px 1px 1px rgb(12, 49, 4);
+
+}
+
+header p{
+    margin-bottom: 1em;
+    color: rgb(253, 253, 253); 
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header img{
+    width: 30%;
+    height: 30%;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #2a2c29;
+    color: #ffff;
+}
+
+#sobre h2{
+    color: #ffff;
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#educacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #212529;
+    color: #ffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00ffff;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+.social-icons{
+    margin-bottom: 1.0em;
+}
+
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #fff;
+    color: black !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-circle i {
+	color: black;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle a:hover i {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.img-profile{
+    border-radius: 100%;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 700px;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    header p {
+        margin-bottom: 2em;
+    }
+
+    header img{
+        width: 50%;
+        height: 50%;
+    }
+
+    #sobre {
+        height: 400px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 400px;
+    }
+
+    #educacao{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #skills{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p{
+        width: 100%;
+    }
+
+    .social-icons{
+        margin-bottom: 2.0em;
+    }
+
+    .img-profile{
+        height: 250px;
+        width: 250px;
+        margin-top: 0.5em;
+    }
+    
+}
