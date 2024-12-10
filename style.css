@@ -65,10 +65,13 @@ header img{
 }
 
 #educacao{
-    /*display: flex;*/
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #skills{
