@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // ISSO É IMPORTANTE: Garante que os caminhos dos arquivos sejam relativos
+  base: '/myllebraga/', // ADICIONE ESTA LINHA EXATAMENTE ASSIM
 })

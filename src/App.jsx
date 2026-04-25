@@ -236,7 +236,7 @@ export default function App() {
             <div className="relative group">
                {/* Efeito de luz vermelha */}
                <div className="absolute -inset-2 bg-red-600 opacity-10 group-hover:opacity-30 transition duration-500 blur-xl"></div>
-               <img src="/mbraga.jpeg" className="relative aspect-[4/5] object-cover border border-white/10 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" alt="Mylle Braga" />
+               <img src="mbraga.jpeg" className="relative aspect-[4/5] object-cover border border-white/10 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" alt="Mylle Braga" />
             </div>
           </div>
         </section>
