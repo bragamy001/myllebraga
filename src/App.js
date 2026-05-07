@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Componente de Cartão de Projeto para reutilização
+
 const ProjectCard = ({ title, desc, tech, link }) => (
   <div class="bg-[#112240] p-6 rounded-lg hover:-translate-y-2 transition-all border border-transparent hover:border-[#64ffda]">
     <h3 class="text-[#ccd6f6] text-xl font-bold mb-2">{title}</h3>
@@ -14,7 +14,7 @@ const ProjectCard = ({ title, desc, tech, link }) => (
 function App() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
-      {/* Hero Section */}
+      {}
       <header className="min-h-[70vh] flex flex-col justify-center">
         <p className="text-[#64ffda] font-mono mb-4">Olá, meu nome é</p>
         <h1 className="text-6xl md:text-8xl font-black text-[#ccd6f6] mb-4">Mylle Braga.</h1>
@@ -28,7 +28,7 @@ function App() {
         </a>
       </header>
 
-      {/* Sobre (Focado em Carreira) */}
+      {}
       <section id="sobre" className="py-20">
         <h2 className="text-3xl font-bold text-[#ccd6f6] mb-8 flex items-center">
           <span className="text-[#64ffda] font-mono mr-2 text-xl">01.</span> Sobre mim
@@ -52,7 +52,7 @@ function App() {
         </div>
       </section>
 
-      {/* Projetos */}
+      {}
       <section id="projetos" className="py-20">
         <h2 className="text-3xl font-bold text-[#ccd6f6] mb-8 flex items-center">
           <span className="text-[#64ffda] font-mono mr-2 text-xl">02.</span> Projetos em Destaque

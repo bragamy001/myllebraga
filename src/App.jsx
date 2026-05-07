@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 export default function App() {
   const [lang, setLang] = useState('pt');
 
-  // Função para gerar a visualização do currículo completo em Inglês
   const openEnglishResume = () => {
     const win = window.open('', '_blank');
     win.document.write(`
@@ -130,8 +129,8 @@ export default function App() {
           text: (
             <div className="space-y-4">
               <p>Atualmente, sou Analista Sênior de Dados e Planejamento no Grupo Boticário, além de atuar como Key User. Sou responsável por propor e desenvolver melhorias sistêmicas, automações com RPA e soluções integradas ao SAP, incluindo interface com sistemas internacionais (Áustria e Alemanha).</p>
-              <p>Também lidero iniciativas de padronização e otimização de processos no centro de distribuição mais tecnológico da companhia. Desenvolvi o principal SaaS responsável pelo balanceamento de demanda entre CDs — solução que, por mais de 10 anos, foi alvo de tentativas sem sucesso envolvendo empresas e pesquisadores. Após minha entrada, a ferramenta foi concebida e implementada em cerca de 1 ano, com rollout iniciado em São Gonçalo dos Campos e expansão para operações B2C em estados como São Paulo, Minas Gerais e Paraná.</p>
-              <p>Atualmente, lidero essa frente como Product Owner, utilizando metodologias ágeis como Scrum e XP, garantindo evolução contínua, eficiência operacional e geração de valor para o negócio.</p>
+              <p>Também lidero iniciativas de padronização e otimização de processos no centro de distribuição mais tecnológico da companhia. Desenvolvi o principal SaaS responsável pelo balanceamento de demanda entre CDs, solução que, por mais de 10 anos, foi alvo de tentativas sem sucesso envolvendo empresas e pesquisadores. Após minha entrada, a ferramenta foi concebida e implementada em cerca de 1 ano, com rollout iniciado em São Gonçalo dos Campos e expansão para operações B2C em estados como São Paulo, Minas Gerais e Paraná.</p>
+              <p>Lidero essa frente como Product Owner, utilizando metodologias ágeis como Scrum e XP, garantindo evolução contínua, eficiência operacional e geração de valor para o negócio.</p>
             </div>
           )
         },
@@ -140,8 +139,8 @@ export default function App() {
           text: "Referência em IoT e arquitetura de microserviços. Atuei na integração de lógica de PLC com ambientes de dados em cloud, resolvendo problemas complexos em máquinas industriais de alta performance."
         },
         {
-          tag: "Automotivo & Global", title: "Analista de Software II @ Ford Motor Company",
-          text: "Atuei como desenvolvedora de software I na Ford Motor Company, colaborando com o time da América do Norte. Fui promovida a Analista II na operação da América do Sul, com forte atuação em dados conectados de veículos. Nesse período, liderei um projeto estratégico voltado à transformação de dados em insights para o time de Pesquisa e Desenvolvimento (P&D)."
+          tag: "Automotivo & Global", title: "Desenvolvedora de Software I / Analista de Dados II @ Ford Motor Company",
+          text: "Atuei como desenvolvedora de software I na Ford Motor Company, colaborando com o time da América do Norte. Fui promovida a Analista de Dados II na operação da América do Sul, com forte atuação em dados conectados de veículos. Nesse período, liderei um projeto estratégico voltado à transformação de dados em insights para o time de Pesquisa e Desenvolvimento (P&D)."
         }
       ]
     },
@@ -173,8 +172,8 @@ export default function App() {
           text: "Reference in IoT and microservices architecture. Worked on integrating PLC logic with cloud data environments, solving complex problems in high-performance industrial machinery."
         },
         {
-          tag: "Automotive & Global", title: "Software Analyst II @ Ford Motor Company",
-          text: "I worked as a Software Developer I at Ford Motor Company, collaborating with the North American team. I was promoted to Analyst II in the South American operation, with a strong focus on connected vehicle data. During this period, I led a strategic project aimed at transforming data into insights for the R&D team."
+          tag: "Automotive & Global", title: "Software Developer I / Data Analyst II @ Ford Motor Company",
+          text: "I worked as a Software Developer I at Ford Motor Company, collaborating with the North American team. I was promoted to Data Analyst II in the South American operation, with a strong focus on connected vehicle data. During this period, I led a strategic project aimed at transforming data into insights for the R&D team."
         }
       ]
     }
@@ -194,7 +193,7 @@ export default function App() {
           </button>
           
           {lang === 'pt' ? (
-            <a href="/CV - MBRAGA.pdf" target="_blank" rel="noreferrer" className="border border-white/20 px-4 py-2 hover:bg-white hover:text-black transition-all">
+            <a href="/myllebraga/CURRICULO_MYLLE_BRAGA.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/20 px-4 py-2 hover:bg-white hover:text-black transition-all">
               {t.cv}
             </a>
           ) : (
@@ -234,7 +233,7 @@ export default function App() {
               </div>
             </div>
             <div className="relative group">
-               {/* Efeito de luz vermelha */}
+               {}
                <div className="absolute -inset-2 bg-red-600 opacity-10 group-hover:opacity-30 transition duration-500 blur-xl"></div>
                <img src="mbraga.jpeg" className="relative aspect-[4/5] object-cover border border-white/10 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" alt="Mylle Braga" />
             </div>
